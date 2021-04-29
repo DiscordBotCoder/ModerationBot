@@ -4,8 +4,8 @@ const client = new Discord.Client();
 client.on("ready", () => {
   console.log("I am ready!");
 
-client.user.setActivity("*help To Start", { type: "STREAMING" });
-
+client.user.setActivity("Your Status", { type: "Presence Here" });
+// Set Your Status And Presence Here, There Are 4 Precenses, dnd - Do Not Disturb, ONLINE - Online mode, STREAMING - Gives You A Purple Play Button As Your Presence, IDLE - Idle Mode
 // Set the prefix
 const prefix = "*";
 client.on("message", (message) => {
